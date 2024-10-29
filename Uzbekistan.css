@@ -1,0 +1,11 @@
+.animate {
+    transition: transform 0.5s;
+}
+
+.animate:hover {
+    transform: scale(1.1);
+}
+
+.highlight {
+    background-color: yellow;
+}

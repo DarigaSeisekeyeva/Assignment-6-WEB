@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="theme.css">
+    <title>Tajikistan</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <a class="navbar-brand ps-3" href="#">CIS Countries Guide</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="log.html">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="Kazakhstan.html">Kazakhstan</a></li>
+            <li class="nav-item"><a class="nav-link" href="Uzbekistan.html">Uzbekistan</a></li>
+            <li class="nav-item"><a class="nav-link" href="Kyrgyzstan.html">Kyrgyzstan</a></li>
+            <li class="nav-item active"><a class="nav-link" href="Tajikistan.html">Tajikistan</a></li>
+            <li class="nav-item"><a class="nav-link" href="Turkmenistan.html">Turkmenistan</a></li>
+        </ul>
+    </div>
+</nav>
+
+<button id="theme-toggle-btn" class="theme-toggle-btn"></button>
+
+<div id="tajikistanCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="3000">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#tajikistanCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#tajikistanCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#tajikistanCarousel" data-bs-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://static.euronews.com/articles/stories/07/04/88/70/1440x810_cmsv2_0a756090-ca5d-5799-943e-48226670388e-7048870.jpg" class="d-block w-100"
+                 alt="Tajikistan Landscape 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Beautiful Tajikistan</h5>
+                <p>Explore the breathtaking landscapes of Tajikistan.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.orexca.com/img/tajikistan/nature/fann-mountains.jpg" class="d-block w-100"
+                 alt="Tajikistan Landscape 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Mountain Peaks</h5>
+                <p>Tajikistan is home to towering mountain ranges.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://static.the.akdn/53832/1645803619-1644324301-akmi-tajikistan-roofoftheworld-festival2016-f5-1.jpg" class="d-block w-100"
+                 alt="Tajikistan Landscape 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Cultural Heritage</h5>
+                <p>Discover the rich culture and heritage of Tajikistan.</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#tajikistanCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#tajikistanCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+
+<div class="container mt-5">
+    <h2>Filter Dishes</h2>
+    <div class="form-group">
+        <label for="filterSelect">Select a Dish Type:</label>
+        <select id="filterSelect" class="form-select">
+            <option value="all">All</option>
+            <option value="plov">Plov</option>
+            <option value="samsa">Samsa</option>
+            <option value="lagman">Lagman</option>
+        </select>
+    </div>
+</div>
+<br><br>
+<div class="row">
+    <div class="col-lg-4 mb-4">
+        <div class="card">
+            <img src="https://cs12.pikabu.ru/post_img/big/2022/06/10/5/1654845137177250067.png" class="card-img-top" alt="Plov">
+            <div class="card-body">
+                <h5 class="card-title">Plov</h5>
+                <p class="card-text">A staple in Tajik cuisine, Plov is a hearty rice dish with lamb, onions, and carrots.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+        <div class="card">
+            <img src="https://thumbs.dreamstime.com/b/asiatisches-nahrung-samsa-oder-samosas-mit-schneidebrett-hühnerleiste-auf-nahrungsmittelrezepthintergrund-eng-oben-186059964.jpg" class="card-img-top" alt="Samsa">
+            <div class="card-body">
+                <h5 class="card-title">Samsa</h5>
+                <p class="card-text">Samsa is a popular pastry filled with minced meat and spices, often enjoyed as street food.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/lagman-national-uzbek-dish-is-fragrant-soup-with-noodles-pieces-lamb-fried-with-vegetables-herbs-served-with-spicy-sauce-adjika_400928-182.jpg" class="card-img-top" alt="Lagman Soup">
+            <div class="card-body">
+                <h5 class="card-title">Lagman Soup</h5>
+                <p class="card-text">Lagman is a traditional noodle soup made with hand-pulled noodles, vegetables, and meat in a flavorful broth.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer class="text-center">
+<p>Created by Dariga Seisekeyeva, Zarema Bazarova, Saniya Zhalgassova</p>
+<p>September, 2024</p>
+</footer>
+
+<script src="Tajikistan.js"></script>
+<script src="theme.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

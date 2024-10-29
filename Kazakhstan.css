@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar {
+    background-color: #d9e9f4;
+}
+
+h2.section-heading {
+    font-size: 28px;
+    color: #2c3e50; 
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+dl dt {
+    font-weight: bold;
+    color: #2c3e50; 
+}
+
+dl dd {
+    margin-bottom: 10px;
+}
+
+ul.food-list {
+    margin-left: 20px;
+}
+
+ul.food-list li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid #2c3e50; 
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.accordion-content {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+  
+.accordion-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #4a6d92; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

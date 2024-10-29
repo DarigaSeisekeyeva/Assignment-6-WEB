@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS Countries</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <a class="navbar-brand ps-3" href="#">CIS Countries Guide</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> 
+                <li class="nav-item"><a class="nav-link" href="log.html">Login</a></li>
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Kazakhstan.html">Kazakhstan</a></li>
+                <li class="nav-item"><a class="nav-link" href="Uzbekistan.html">Uzbekistan</a></li>
+                <li class="nav-item"><a class="nav-link" href="Kyrgyzstan.html">Kyrgyzstan</a></li>
+                <li class="nav-item"><a class="nav-link" href="Tajikistan.html">Tajikistan</a></li>
+                <li class="nav-item"><a class="nav-link" href="Turkmenistan.html">Turkmenistan</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button id="theme-toggle-btn" class="theme-toggle-btn"></button>
+
+    <main class="container my-4">
+        <section class="intro-section row">
+            <div class="col-lg-6 col-md-12 mb-4"> 
+                <h2 class="section-heading text-center">Welcome to Our Guide</h2>
+                <p class="p-section text-center">
+                    Explore CIS Countries: Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Turkmenistan.
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-12"> 
+                <figure class="text-center">
+                    <img src="https://blog.dookinternational.com/images/posts/jcAf6Io1724913847.jpg" alt="CIS countries" class="featured-image img-fluid rounded mb-2"> 
+                    <figcaption class="fig-section">Discover the beauty and cultural richness of Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, and Turkmenistan.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <blockquote class="quote-section">
+            Central Asia is known for its diverse cultures, ancient cities, historical sites, the Silk Road, nature-rich attractions, spectacular architecture, and beautiful mountain ranges. It includes numerous countries like Kazakhstan, Tajikistan, Uzbekistan, Kyrgyzstan, and Turkmenistan.
+        </blockquote>
+
+
+        <h4>With our guide you will learn more about:</h4>
+        <ul class="info-list">
+            <li>Geography</li>
+            <li>Culture</li>
+            <li>Food</li>
+        </ul>
+    </main>
+
+    <section class="container-fluid data-section py-5"> 
+        <div class="row text-center">
+            <div class="col-lg-4 col-md-6 mb-4"> 
+                <h4>Geography</h4>
+                <p>Learn about the geography of Central Asia, its landscapes, and natural wonders.</p>
+                <img src="https://static.toiimg.com/photo/100356119/100356119.jpg" class="img-fluid rounded" style="height: 500px; width: 400px; object-fit: cover;" alt="Geography image">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h4>Culture</h4>
+                <p>Discover the rich cultural heritage and traditions of each country in the CIS region.</p>
+                <img src="https://i.pinimg.com/236x/12/b3/27/12b3276ca29c2f695a38449ea717d552.jpg" class="img-fluid rounded" style="height: 500px; width: 400px; object-fit: cover;" alt="Culture image">
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <h4>Food</h4>
+                <p>Taste the diverse cuisines of Central Asia, known for its rich flavors and unique dishes.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdqgzXwiXc-Tn7MZfUJhUawu2ySPgSdGA5TA&s" class="img-fluid rounded" style="height: 500px; width: 400px; object-fit: cover;" alt="Food image">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container my-4">
+        <h3>Want to know more?</h3>
+        <hr>
+        <button id="contact-us-btn" class="btn btn-outline-dark">Contact Us</button>
+        
+        <div id="popup-form" class="popup-form">
+            <div class="popup-content">
+                <span id="close-btn">&times;</span>
+                <section class="contact-section">
+                    
+                    <h2>Contact Us</h2>
+                    <form action="#" method="post"> 
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" class="form-input">
+                        <br><br>
+                        
+                        <label for="country">Country:</label>
+                        <select id="country" name="country" class="form-input">
+                            <option value="empty"></option>
+                            <option value="kazakhstan">Kazakhstan</option>
+                            <option value="uzbekistan">Uzbekistan</option>
+                            <option value="kyrgyzstan">Kyrgyzstan</option>
+                            <option value="tajikistan">Tajikistan</option>
+                            <option value="turkmenistan">Turkmenistan</option>
+                        </select>
+                        <br><br>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="3" cols="50" placeholder="Enter your message" class="form-input"></textarea>
+                        <br><br>
+                        <button type="button" id="submit-btn" class="btn btn-outline-dark">Submit</button>
+                    </form>
+                    <p id="greeting" class="greeting"></p>
+                </section>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+
+    </section>
+    
+    <script src="theme.js"></script>
+    
+    <footer id="footer-container">
+        <p>Created by Dariga Seisekeyeva, Zarema Bazarova, Saniya Zhalgassova</p>
+        <p>September, 2024</p>
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
